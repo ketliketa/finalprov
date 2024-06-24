@@ -1,17 +1,11 @@
-/* General Styles */
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
 }
 
-/* Header */
-.header {
-    background-color: #2c66cb;
-    color: white;
-    padding: 10px;
-    text-align: center;
-}
+
 
 .nav a {
     color: white;
@@ -23,7 +17,6 @@ body {
     text-decoration: underline;
 }
 
-/* Container */
 .container {
     width: 100%;
     max-width: 1200px;
@@ -32,7 +25,7 @@ body {
     box-sizing: border-box;
 }
 
-/* Main Section */
+
 .main-section {
     display: flex;
     flex-direction: column;
@@ -61,7 +54,7 @@ body {
     font-size: 13px;
 }
 
-/* Ad Section */
+
 .ad-section {
     display: flex;
     flex-direction: column;
@@ -101,7 +94,6 @@ body {
     font-size: 12px;
 }
 
-/* Categories */
 .categories {
     display: flex;
     flex-wrap: wrap;
@@ -141,7 +133,7 @@ body {
     font-size: 12px;
 }
 
-/* Carousel */
+
 .carousel-container {
     position: relative;
     width: 90%;
@@ -258,15 +250,7 @@ body {
     background-color: #717171;
 }
 
-/* Footer */
-.footer {
-    background-color: #2c66cb;
-    color: white;
-    padding: 10px;
-    text-align: center;
-}
 
-/* Responsive Styles */
 @media (max-width: 768px) {
     .categories {
         flex-direction: column;
